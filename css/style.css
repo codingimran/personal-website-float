@@ -259,6 +259,10 @@ p {
   margin: 0 auto;
 }
 
+.gray-color-text {
+  color: rgb(92, 92, 92);
+}
+
 /* Contact section  */
 .contact {
   height: 300px;
