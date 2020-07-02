@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/zoom.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
@@ -41,45 +42,51 @@
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
           adipisci laborum itaque, magni corporis laboriosam ab. Fugiat, beatae
-          perferendis illo alias, doloribus rem corporis fuga quod, provident
-          velit quos vero?
+          perferendis illo alias. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Itaque mollitia iusto quisquam molestias in nostrum.
         </p>
         <a class="btn-style" href="#">Download CV</a>
       </div>
     </section>
     <div class="clr"></div>
-    <section class="work">
-      <h2 align="center">My Latest Work</h2>
-      <div class="half-float-image">
-        <img src="./image/latest-work/work-1.png" alt="" />
-        <img src="./image/latest-work/work-2.jpg" alt="" />
-        <img src="./image/latest-work/work-3.jpg" alt="" />
+
+    <section class="work-banner">
+      <h2>My Latest Work</h2>
+      <div class="half-float-image" align="center">
+        <img id="myImg" src="./image/latest-work/work-1.png" alt="work-1" />
+        <img id="myImg2" src="./image/latest-work/work-2.jpg" alt="work-2" />
+        <img id="myImg3" src="./image/latest-work/work-3.jpg" alt="work-3" />
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img-container" />
+        <div id="caption"></div>
       </div>
     </section>
-    <section class="client">
-      <h2 align="center">What client say</h2>
-      <div class="client-name" align="center">
-        <h3>Imran Khan</h3>
+
+    <section class="client-section">
+      <h2>What client say</h2>
+      <div class="border"></div>
+      <div class="client-name">
+        <h3>❤️ Imran Khan ❤️</h3>
         <p class="gray-color-text">Founder & CEO Alies</p>
       </div>
-      <p align="center">
+      <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
-        quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-        ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nisi
-        suscipit nobis perferendis dolorem eius dolores ducimus, autem error
-        distinctio. Accusantium doloribus, accusamus unde quis ratione atque.
-        Fugit consequatur debitis alias rerum dicta id fugiat eaque eius. Amet,
-        facere facilis!
+        quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
     </section>
+    <div class="clr"></div>
     <section class="contact">
       <div class="card-style">
         <p>Leave me a message</p>
         <h3>lorem@lorem.com</h3>
       </div>
     </section>
-    <footer align="center">
+    <footer>
       &copy; Imran Khan.2021 Profesional Web Developer
     </footer>
+    <script src="./js/zoom.js"></script>
   </body>
 </html>
