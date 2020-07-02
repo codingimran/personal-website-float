@@ -248,7 +248,7 @@ p {
   border-image: linear-gradient(45deg, rgb(28, 206, 216), rgb(55, 153, 245));
   border-image-slice: 1;
   width: 60px;
-  margin: 10px auto 40px auto;
+  margin: 10px auto 80px auto;
 }
 
 .client-name > h3 {
@@ -266,6 +266,7 @@ p {
 
 .gray-color-text {
   color: rgb(92, 92, 92);
+  padding-bottom: 40px;
 }
 
 /* Contact section  */
