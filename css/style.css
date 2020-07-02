@@ -130,6 +130,7 @@ table {
 body {
   width: 70%;
   margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
 
   font-family: "Montserrat", sans-serif;
 }
@@ -175,6 +176,7 @@ p {
 
 .top-banner {
   background-image: url(../image/header-bg.png);
+  background-repeat: no-repeat;
 }
 
 .half-float {
@@ -193,6 +195,10 @@ p {
 }
 
 /* middle banner */
+.middle-banner {
+  background-image: url(../image/biography-bg.png);
+  background-repeat: no-repeat;
+}
 .half-float > h2 {
   font-size: 24px;
 }
@@ -207,7 +213,6 @@ p {
   height: 500px;
   background-image: url(../image/latest-work-bg.png);
   background-repeat: no-repeat;
-  /* margin-top: 40px; */
 }
 
 .work-banner > h2 {
